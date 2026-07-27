@@ -1,18 +1,27 @@
-# 🔑 열려라 참깨, Open Sesame
+# 🔑 열려라참깨, OpenSesame
 
 **누구나 질문하고, 솔직하게 답하는 오픈마인드 커뮤니티 서비스**
 
 > **Forked from:** [Open-Sesame](https://github.com/Choiyuhyeon/Open-Sesame)
 >
-> 팀 프로젝트 '열려라 참깨' 종료 후 기술적 성장을 이어가기 위해 개인 저장소로 포크해 Vercel에 배포했습니다.
+> 팀 프로젝트 '열려라참깨' 종료 후 기술적 성장을 이어가기 위해 개인 저장소로 포크해 Vercel에 배포했습니다.
 > 배포 후 새로고침·직접 접근 시 404가 나는 SPA 라우팅 이슈가 있어, 모든 경로를 `index.html`로 rewrite하는 `vercel.json`으로 해결했습니다.
 
 ---
 
 ## 📖 프로젝트 소개
 
-'열려라 참깨'는 사용자가 피드를 생성하고, 다른 사용자들로부터 질문을 받으며 소통할 수 있는 플랫폼입니다. 
+'열려라참깨'는 사용자가 피드를 생성하고, 다른 사용자들로부터 질문을 받으며 소통할 수 있는 서비스입니다.
 익명 혹은 기명으로 마음을 열고 대화하는 공간을 지향합니다.
+
+---
+
+## 📅 프로젝트 기간 & 배포링크
+
+- **진행 기간**: 2026년 3월 4일 ~ 2026년 3월 19일
+- [**Vercel 배포**](https://opensesame-imyoonsoo.vercel.app)
+
+---
 
 ### ✨ 주요 기능
 
@@ -40,7 +49,7 @@
 
 ### Development Tools
 
-<img src="https://img.shields.io/badge/eslint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"> <img src="https://img.shields.io/badge/prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black"> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> 
+<img src="https://img.shields.io/badge/eslint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"> <img src="https://img.shields.io/badge/prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black"> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
 
 - **Code Quality**: ESLint, Prettier
 - **Version Control**: Git, GitHub
@@ -48,7 +57,7 @@
 
 ### Collaboration
 
-<img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"> <img src="https://img.shields.io/badge/zep-6B4EFF?style=for-the-badge">  <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> 
+<img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"> <img src="https://img.shields.io/badge/zep-6B4EFF?style=for-the-badge"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
 - **Communication**: ZEP, Discord
 - **Documentation**: Notion
@@ -86,12 +95,12 @@ Open-Sesame/
 
 ## 🛣 라우팅 구조
 
-| 경로 | 페이지 | 설명 |
-|------|--------|------|
-| `/` | **HomePage** | 이름 입력 및 피드 생성 |
-| `/list` | **ListPage** | 질문 피드 목록 조회 (정렬, 페이지네이션) |
-| `/post/:id` | **PostPage** | 특정 피드 질문 조회, 좋아요/싫어요, 공유 |
-| `/post/:id/answer` | **AnswerPage** | 답변 작성/수정/삭제 (관리자 페이지) |
+| 경로               | 페이지         | 설명                                     |
+| ------------------ | -------------- | ---------------------------------------- |
+| `/`                | **HomePage**   | 이름 입력 및 피드 생성                   |
+| `/list`            | **ListPage**   | 질문 피드 목록 조회 (정렬, 페이지네이션) |
+| `/post/:id`        | **PostPage**   | 특정 피드 질문 조회, 좋아요/싫어요, 공유 |
+| `/post/:id/answer` | **AnswerPage** | 답변 작성/수정/삭제 (관리자 페이지)      |
 
 ---
 
@@ -175,7 +184,7 @@ npm run format    # Prettier 포맷팅
 <br/>
 <b>서윤수</b>
 <br/>
-<sub>답변 페이지 구현</sub>
+<sub>공유 기능·빈 화면 구현</sub>
 </td>
 
 <td align="center" width="150px">
@@ -207,15 +216,15 @@ npm run format    # Prettier 포맷팅
 
 ### Commit Convention
 
-| Type | Description |
-|------|-------------|
-| `feat` | 새로운 기능 추가 |
-| `fix` | 버그 수정 |
-| `refactor` | 코드 리팩토링 |
-| `style` | 코드 포맷팅, 세미콜론 누락 등 |
-| `docs` | 문서 수정 |
-| `test` | 테스트 코드 추가 |
-| `chore` | 빌드 과정 또는 보조 도구 변경 |
+| Type       | Description                   |
+| ---------- | ----------------------------- |
+| `feat`     | 새로운 기능 추가              |
+| `fix`      | 버그 수정                     |
+| `refactor` | 코드 리팩토링                 |
+| `style`    | 코드 포맷팅, 세미콜론 누락 등 |
+| `docs`     | 문서 수정                     |
+| `test`     | 테스트 코드 추가              |
+| `chore`    | 빌드 과정 또는 보조 도구 변경 |
 
 ---
 
