@@ -2,6 +2,11 @@
 
 **누구나 질문하고, 솔직하게 답하는 오픈마인드 커뮤니티 서비스**
 
+> **Forked from:** [Open-Sesame](https://github.com/Choiyuhyeon/Open-Sesame)
+>
+> 팀 프로젝트 '열려라 참깨' 종료 후 기술적 성장을 이어가기 위해 개인 저장소로 포크해 Vercel에 배포했습니다.
+> 배포 후 새로고침·직접 접근 시 404가 나는 SPA 라우팅 이슈가 있어, 모든 경로를 `index.html`로 rewrite하는 `vercel.json`으로 해결했습니다.
+
 ---
 
 ## 📖 프로젝트 소개
