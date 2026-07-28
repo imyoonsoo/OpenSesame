@@ -184,7 +184,7 @@ npm run format    # Prettier 포맷팅
 <br/>
 <b>서윤수</b>
 <br/>
-<sub>공유 기능·빈 화면 구현</sub>
+<sub>개별 피드 페이지<br>공유 기능 구현</sub>
 </td>
 
 <td align="center" width="150px">
