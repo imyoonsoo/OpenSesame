@@ -1,148 +1,106 @@
-# 🔑 열려라참깨, OpenSesame
-
-**누구나 질문하고, 솔직하게 답하는 오픈마인드 커뮤니티 서비스**
+# 🔑 OpenSesame, 열려라참깨
 
 > **Forked from:** [Open-Sesame](https://github.com/Choiyuhyeon/Open-Sesame)
 >
-> 팀 프로젝트 '열려라참깨' 종료 후 기술적 성장을 이어가기 위해 개인 저장소로 포크해 Vercel에 배포했습니다.
-> 배포 후 새로고침·직접 접근 시 404가 나는 SPA 라우팅 이슈가 있어, 모든 경로를 `index.html`로 rewrite하는 `vercel.json`으로 해결했습니다.
+> 팀 프로젝트 '열려라참깨' 종료 후, 기술적 성장을 이어가고자 포크해 Vercel에 배포했습니다.<br>
+> 배포 후 새로고침 직접 접근 시 404가 발생하는 SPA 라우팅 이슈로, 모든 경로를 `index.html`로 rewrite하는 `vercel.json` 추가해 해결했습니다.
 
----
+<br>
 
-## 📖 프로젝트 소개
-
-'열려라참깨'는 사용자가 피드를 생성하고, 다른 사용자들로부터 질문을 받으며 소통할 수 있는 서비스입니다.
+열려라참깨는 사용자가 질문 피드를 만들고, 다른 사용자들과 질문·답변을 주고받으며 소통하는 커뮤니티 서비스입니다.<br>
 익명 혹은 기명으로 마음을 열고 대화하는 공간을 지향합니다.
+<br><br>
+
+## 📍 목차
+
+- [프로젝트 기간 & 배포링크](#info)
+- [주요 기능](#features)
+- [기술 스택](#stack)
+- [프로젝트 구조](#structure)
+- [라우팅 구조](#routing)
+- [팀원 및 역할](#team)
 
 ---
+
+<div id="info"></div>
 
 ## 📅 프로젝트 기간 & 배포링크
 
 - **진행 기간**: 2026년 3월 4일 ~ 2026년 3월 19일
 - [**Vercel 배포**](https://opensesame-imyoonsoo.vercel.app)
 
----
+<br>
 
-### ✨ 주요 기능
+<div id="features"></div>
 
-- 🙋 **피드 생성**: 이름을 입력하여 나만의 질문 피드 생성
-- 💬 **질문하기**: 다른 사용자에게 익명으로 질문 작성
-- ✍️ **답변 관리**: 받은 질문에 답변 작성/수정/삭제
-- 👍 **반응하기**: 답변에 좋아요 반응
-- 🔗 **공유하기**: 카카오톡, 페이스북, 링크 복사로 피드 공유
-- 📱 **반응형 디자인**: 모바일, 태블릿, 데스크톱 최적화
+## 🔌 주요 기능
 
----
+- **피드 생성** — 이름을 입력해 나만의 질문 피드 생성
+- **질문하기** — 다른 사용자에게 익명으로 질문 작성
+- **답변 관리** — 받은 질문에 답변 작성 / 수정 / 삭제
+- **반응하기** — 답변에 좋아요 반응
+- **공유하기** — 카카오톡 · 페이스북 · 링크 복사로 피드 공유
+- **반응형 디자인** — 모바일 · 태블릿 · 데스크톱 최적화
 
-## 🛠 기술 스택
+<br>
 
-### Frontend
+<div id="stack"></div>
 
-<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
-<img src="https://img.shields.io/badge/react_router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white"> <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
+## 🔧 기술 스택
 
-- **Library**: React 19.2.0
-- **Build Tool**: Vite 7.3.1
-- **Routing**: React Router DOM 7.13.1
-- **Styling**: CSS Modules, CSS Variables
-- **HTTP Client**: Axios 1.13.6
+| Category         | Tech                       |
+| ---------------- | -------------------------- |
+| **Library**      | React 19                   |
+| **Build Tool**   | Vite 7                     |
+| **Routing**      | React Router DOM 7         |
+| **HTTP Client**  | Axios                      |
+| **Styling**      | CSS Modules, CSS Variables |
+| **Code Quality** | ESLint, Prettier           |
 
-### Development Tools
+<br>
 
-<img src="https://img.shields.io/badge/eslint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"> <img src="https://img.shields.io/badge/prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black"> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+<div id="structure"></div>
 
-- **Code Quality**: ESLint, Prettier
-- **Version Control**: Git, GitHub
-- **Design System**: Figma
-
-### Collaboration
-
-<img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"> <img src="https://img.shields.io/badge/zep-6B4EFF?style=for-the-badge"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-
-- **Communication**: ZEP, Discord
-- **Documentation**: Notion
-- **Project Management**: GitHub Projects
-
----
-
-## 📁 프로젝트 구조
+## 🗂️ 프로젝트 구조
 
 ```
-Open-Sesame/
-├── src/
-│   ├── components/
-│   │   ├── common/
-│   │   ├── home/
-│   │   ├── list/
-│   │   ├── post/
-│   │   └── answer/
-│   ├── pages/
-│   │   ├── HomePage/
-│   │   ├── ListPage/
-│   │   ├── PostPage/
-│   │   └── AnswerPage/
-│   ├── hooks/
-│   ├── api/
-│   ├── styles/
-│   │   ├── color.js
-│   │   └── typography.js
-│   ├── utils/
-│   ├── assets/
-│   └── global.css
-├── vite.config.js
-└── package.json
+src/
+├── api/            # API 통신 (question · answer · subject)
+├── assets/         # 아이콘 · 이미지 등 정적 자원
+├── components/     # 도메인별 UI 컴포넌트 (common · home · list · post · answer)
+├── hooks/          # 커스텀 훅
+├── layouts/        # 공통 레이아웃 (Layout)
+├── pages/          # 페이지 (HomePage · ListPage · PostPage · AnswerPage)
+├── styles/         # 색상 · 타이포그래피 (color.css · typography.css · theme.js)
+├── utils/          # axios 인스턴스
+├── App.jsx         # 라우팅 정의
+├── main.jsx        # 앱 진입점
+└── global.css      # 전역 스타일
 ```
 
-## 🛣 라우팅 구조
+<br>
 
-| 경로               | 페이지         | 설명                                     |
-| ------------------ | -------------- | ---------------------------------------- |
-| `/`                | **HomePage**   | 이름 입력 및 피드 생성                   |
-| `/list`            | **ListPage**   | 질문 피드 목록 조회 (정렬, 페이지네이션) |
-| `/post/:id`        | **PostPage**   | 특정 피드 질문 조회, 좋아요/싫어요, 공유 |
-| `/post/:id/answer` | **AnswerPage** | 답변 작성/수정/삭제 (관리자 페이지)      |
+<div id="routing"></div>
 
----
+## 🛣️ 라우팅 구조
 
-## 🚀 시작하기
+| 경로               | 페이지         | 설명                                      |
+| ------------------ | -------------- | ----------------------------------------- |
+| `/`                | **HomePage**   | 이름 입력 및 피드 생성                    |
+| `/list`            | **ListPage**   | 질문 피드 목록 조회 (정렬 · 페이지네이션) |
+| `/post/:id`        | **PostPage**   | 특정 피드 질문 조회, 좋아요 · 공유        |
+| `/post/:id/answer` | **AnswerPage** | 답변 작성 / 수정 / 삭제 (관리자 페이지)   |
 
-### Prerequisites
+`/list` · `/post/:id` · `/post/:id/answer`는 공통 `Layout` 안에서 렌더링됩니다.
 
-- Node.js 18.x 이상
-- npm 또는 yarn
+<br>
 
-### Installation
-
-```bash
-# 저장소 클론
-git clone https://github.com/Choiyuhyeon/Open-Sesame.git
-cd Open-Sesame
-
-# 의존성 설치
-npm install
-
-# 개발 서버 실행
-npm run dev
-```
-
-### Available Scripts
-
-```bash
-npm run dev       # 개발 서버 실행 (http://localhost:5173)
-npm run build     # 프로덕션 빌드
-npm run preview   # 빌드 결과 미리보기
-npm run lint      # ESLint 검사
-npm run lint:fix  # ESLint 자동 수정
-npm run format    # Prettier 포맷팅
-```
-
----
+<div id="team"></div>
 
 ## 👥 팀원 및 역할
 
 <table>
 <tr>
-
 <td align="center" width="150px">
 <a href="https://github.com/Choiyuhyeon">
 <img src="https://github.com/Choiyuhyeon.png" width="100px" style="border-radius:50%"/>
@@ -152,7 +110,6 @@ npm run format    # Prettier 포맷팅
 <br/>
 <sub>팀 리더<br/>답변 페이지 구현</sub>
 </td>
-
 <td align="center" width="150px">
 <a href="https://github.com/isuzzi">
 <img src="https://github.com/isuzzi.png" width="100px" style="border-radius:50%"/>
@@ -162,7 +119,6 @@ npm run format    # Prettier 포맷팅
 <br/>
 <sub>디자인 총괄<br/>답변 목록 페이지</sub>
 </td>
-
 <td align="center" width="150px">
 <a href="https://github.com/douk9909">
 <img src="https://github.com/douk9909.png" width="100px" style="border-radius:50%"/>
@@ -172,11 +128,8 @@ npm run format    # Prettier 포맷팅
 <br/>
 <sub>프로젝트 세팅<br/>답변 목록 페이지</sub>
 </td>
-
 </tr>
-
 <tr>
-
 <td align="center" width="150px">
 <a href="https://github.com/imyoonsoo">
 <img src="https://github.com/imyoonsoo.png" width="100px" style="border-radius:50%"/>
@@ -184,9 +137,8 @@ npm run format    # Prettier 포맷팅
 <br/>
 <b>서윤수</b>
 <br/>
-<sub>개별 피드 페이지<br>공유 기능 구현</sub>
+<sub>개별 피드 페이지<br/>공유 기능 구현</sub>
 </td>
-
 <td align="center" width="150px">
 <a href="https://github.com/chahyunlee">
 <img src="https://github.com/chahyunlee.png" width="100px" style="border-radius:50%"/>
@@ -196,7 +148,6 @@ npm run format    # Prettier 포맷팅
 <br/>
 <sub>프로젝트 구조 설정<br/>공통 컴포넌트</sub>
 </td>
-
 <td align="center" width="150px">
 <a href="https://github.com/moonky-1">
 <img src="https://github.com/moonky-1.png" width="100px" style="border-radius:50%"/>
@@ -206,30 +157,9 @@ npm run format    # Prettier 포맷팅
 <br/>
 <sub>메인 페이지 구현</sub>
 </td>
-
 </tr>
 </table>
 
----
+<br>
 
-## 📝 코딩 컨벤션
-
-### Commit Convention
-
-| Type       | Description                   |
-| ---------- | ----------------------------- |
-| `feat`     | 새로운 기능 추가              |
-| `fix`      | 버그 수정                     |
-| `refactor` | 코드 리팩토링                 |
-| `style`    | 코드 포맷팅, 세미콜론 누락 등 |
-| `docs`     | 문서 수정                     |
-| `test`     | 테스트 코드 추가              |
-| `chore`    | 빌드 과정 또는 보조 도구 변경 |
-
----
-
-## 📄 라이선스
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
+<div id="license"></div>
