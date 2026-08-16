@@ -20,7 +20,6 @@
 - [프로젝트 구조](#structure)
 - [라우팅 구조](#routing)
 - [시작하기](#getting-started)
-- [팀원 및 역할](#team)
 
 ---
 
@@ -28,10 +27,10 @@
 
 ## 📋 개요
 
-| 구분                    | 개발기간           | 내용                                                                                                    |
-| ----------------------- | ------------------ | ------------------------------------------------------------------------------------------------------- |
-| **원본 팀 프로젝트**    | 2026.03.04 ~ 03.19 | 6인 팀 · 담당: 개별 피드 페이지 · 공유 기능 · [Open-Sesame](https://github.com/Choiyuhyeon/Open-Sesame) |
-| **Fork 이후 개인 작업** | 2026.03.19 ~       | 아래 [Fork 이후 개선 작업](#improvements) 참조                                                          |
+| 구분                    | 개발기간           | 내용                                           |
+| ----------------------- | ------------------ | ---------------------------------------------- |
+| **원본 팀 프로젝트**    | 2026.03.04 ~ 03.19 | 6인 팀 · 담당: 개별 피드 페이지 · 공유 기능    |
+| **Fork 이후 개인 작업** | 2026.03.19 ~       | 아래 [Fork 이후 개선 작업](#improvements) 참조 |
 
 - [**Vercel 배포**](https://opensesame-imyoonsoo.vercel.app)
 
@@ -156,70 +155,3 @@ npm run preview  # 빌드 결과 미리보기
 ```
 
 API 주소는 `src/utils/axios.js`에 지정되어 있어 별도의 환경변수 설정이 필요하지 않습니다.
-
-<br>
-
-<div id="team"></div>
-
-## 👥 팀원 및 역할
-
-<table>
-<tr>
-<td align="center" width="150px">
-<a href="https://github.com/Choiyuhyeon">
-<img src="https://github.com/Choiyuhyeon.png" width="100px" style="border-radius:50%"/>
-</a>
-<br/>
-<b>최유현</b>
-<br/>
-<sub>팀 리더<br/>답변 페이지 구현</sub>
-</td>
-<td align="center" width="150px">
-<a href="https://github.com/isuzzi">
-<img src="https://github.com/isuzzi.png" width="100px" style="border-radius:50%"/>
-</a>
-<br/>
-<b>이수진</b>
-<br/>
-<sub>디자인 총괄<br/>답변 목록 페이지</sub>
-</td>
-<td align="center" width="150px">
-<a href="https://github.com/douk9909">
-<img src="https://github.com/douk9909.png" width="100px" style="border-radius:50%"/>
-</a>
-<br/>
-<b>김도욱</b>
-<br/>
-<sub>프로젝트 세팅<br/>답변 목록 페이지</sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="150px">
-<a href="https://github.com/imyoonsoo">
-<img src="https://github.com/imyoonsoo.png" width="100px" style="border-radius:50%"/>
-</a>
-<br/>
-<b>서윤수</b>
-<br/>
-<sub>개별 피드 페이지<br/>공유 기능 구현</sub>
-</td>
-<td align="center" width="150px">
-<a href="https://github.com/chahyunlee">
-<img src="https://github.com/chahyunlee.png" width="100px" style="border-radius:50%"/>
-</a>
-<br/>
-<b>이차현</b>
-<br/>
-<sub>프로젝트 구조 설정<br/>공통 컴포넌트</sub>
-</td>
-<td align="center" width="150px">
-<a href="https://github.com/moonky-1">
-<img src="https://github.com/moonky-1.png" width="100px" style="border-radius:50%"/>
-</a>
-<br/>
-<b>최문경</b>
-<br/>
-<sub>메인 페이지 구현</sub>
-</td>
-</tr>
-</table>
